@@ -5,9 +5,11 @@
         <span class="site-description">{{ site.user_title }}</span>
       </h1>
       <div class="header-icons">
-        {% if site.email %}
-        <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
-        {% endif %}
+        {% if site.resume_url %}
+        <a class="resume-btn" href="{{ site.resume_url }}" target="_blank" rel="noopener noreferrer">
+          <i class="icon fa fa-file-text" aria-hidden="true"></i>
+          <span>Résumé</span>
+        </a>
         {% if site.telegram_username %}
         <a
           aria-label="My Telegram"
@@ -18,17 +20,14 @@
           <i class="icon fa fa-telegram" aria-hidden="true"></i>
         </a>
         {% endif %}
-        {% if site.resume_url %}
-        <a class="resume-btn" href="{{ site.resume_url }}" target="_blank" rel="noopener noreferrer">
-          <i class="icon fa fa-file-text" aria-hidden="true"></i>
-          <span>Résumé</span>
-        </a>
-        {% endif %}
         {% if site.linkedin_username %}
         <a aria-label="My LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
         {% endif %}
         {% if site.github_username %}
         <a aria-label="My Github" target="_blank" rel="noopener noreferrer" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.email %}
+        <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
         {% endif %}
       </div>
       <div class="header-links">
