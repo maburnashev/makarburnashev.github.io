@@ -1,17 +1,12 @@
 # Site settings
-title: Mauricio Urraco
-description: Portfolio of Mauricio Urraco — Full Stack Engineer with 10+ years of experience building web platforms, APIs, and developer tools.
-lang: en
-# Open Graph / Twitter Card image (site root path). Set site url for correct absolute URLs when sharing.
-social_image: /assets/favicon.png
-og_locale: en_US
-theme_color: "#1a222c"
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: Makar Burnashev
+description: Сайт-визитка
+lang: ru
 
 # User settings
-username: Mauricio Urraco
-user_description: Студент совместной программы факультетов экономических наук и компьютерных наук НИУ ВШЭ в Москве. Работал с временными рядами, имею опыт ML проектов, командных хакатонов. Победитель олимпиад и кейс-чемпионатов. Стажер-аналитик рыночных рисков в НКЦ.user_title: Full Stack Engineer
+username: Макар Бурнашев
+user_description: Студент совместной программы факультетов экономических наук и компьютерных наук НИУ ВШЭ в Москве. Работал с временными рядами, имею опыт ML проектов, командных хакатонов. Победитель олимпиад и кейс-чемпионатов. Стажер-аналитик рыночных рисков в НКЦ
+user_title: Студент ВШЭ. Стажер НКЦ
 email: maalburnashev@edu.hse.ru
 telegram_username: maburnashev
 linkedin_username: maburnashev
