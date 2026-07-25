@@ -11,6 +11,7 @@ email: maalburnashev@edu.hse.ru
 telegram_username: maburnashev
 linkedin_username: maburnashev
 github_username: maburnashev
+resume_url: /assets/resume.pdf
 
 exclude: ['package.json', 'src', 'node_modules', 'vendor']
 
