@@ -11,17 +11,11 @@ theme_color: "#1a222c"
 
 # User settings
 username: Mauricio Urraco
-user_description: Full Stack Engineer with 10+ years of experience building web platforms, APIs, and developer tools. I've worked across Argentina, the UK, and France — from research at Inria to blockchain infrastructure at Radix DLT to being the first engineering hire at Grapevine. I work primarily with Python, Django, TypeScript, and Angular, and maintain open source projects with 2,500+ GitHub stars.
-user_title: Full Stack Engineer
-email: mauriurraco@gmail.com
-# twitter_username: lorem_ipsum
-instagram_username: mauriciourraco7
-facebook_username: mauricio.urraco
-linkedin_username: murraco
-github_username: murraco
-# medium_username: lorem_ipsum
-# medium_url: lorem_ipsum.medium.com
-# gplus_username:  lorem_ipsum
+user_description: Студент совместной программы факультетов экономических наук и компьютерных наук НИУ ВШЭ в Москве. Работал с временными рядами, имею опыт ML проектов, командных хакатонов. Победитель олимпиад и кейс-чемпионатов. Стажер-аналитик рыночных рисков в НКЦ.user_title: Full Stack Engineer
+email: maalburnashev@edu.hse.ru
+telegram_username: maburnashev
+linkedin_username: maburnashev
+github_username: maburnashev
 
 exclude: ['package.json', 'src', 'node_modules', 'vendor']
 
